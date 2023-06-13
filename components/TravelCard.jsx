@@ -37,7 +37,7 @@ const TravelCard = ({item,index}) => {
             </div>
 
             {/* Best Hotels Flight Things to do icon  */}
-            <div className=" cursor-pointer pb-2 text-teal-400 flex gap-10 lg:text-2xl md:text-2xl text-xl  ">
+            <div className=" cursor-pointer pb-2 text-teal-400 flex gap-10 lg:text-xl md:text-xl text-xl  ">
                 <p>Best Hotels</p>
                 <p>Flight</p>
                 <p>Things to DO</p>

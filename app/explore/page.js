@@ -27,7 +27,7 @@ if(getquery.status ==="error") return <h1>Error...</h1>
         <h1 className='lg:p-4 md:p-3 p-2 lg:text-6xl md:text-3xl  font-mono textgradient '>Best Place to Visit for 2023 -2024</h1>
         <p className='lg:p-3 md:p-2 p-1 lg:text-2xl md:text-xl '>By Balkrishna Pokharel </p>
         <p className='text-sm p-3'>Last Updated on May 31 2023</p>
-        <p className='lg:text-xl lg:p-4 md:p-4 p-4 font-mono'>With a world full of fascinating travel destinations, choosing the perfect vacation spot can present a challenge. That's why U.S. News used expert opinions, reader votes and current trends – and evaluated sights, cultures, scenic beauty, food options and more – to compile this list of the world's best places to visit. Use these recommendations to craft your travel bucket list, and cast your vote below to help us determine next year's ranking.</p>
+        <p className='lg:text-xl lg:p-4 md:p-4 p-4 font-mono'>With a world full of fascinating <span className='spanclass'> travel destinations</span>, choosing the perfect vacation spot can present a challenge. That's why Me(<span className='spanclass'>Balkrishna Pokharel</span>) used <span className='spanclass'>expert opinions, reader votes and current trends</span> – and  <span className='spanclass'>evaluated sights, cultures, scenic beauty, food options</span> and more – to compile this list of the world's best places to visit. Use these recommendations to craft your travel bucket list, and cast your vote below to help us determine next year's ranking.</p>
         <Link href={'/explore'}>
         <p className='text-sm p-2 text-blue-500'>Read More...</p>
         </Link>

@@ -19,3 +19,6 @@ h1,h2,h3,p,ul,li,a{
 .textgradient {
     @apply  md:font-bold lg:font-extrabold text-transparent lg:text-8xl md:text-6xl text-3xl bg-clip-text gradientcolor 
 }
+.spanclass{
+    @apply text-transparent bg-clip-text gradientcolor
+}
