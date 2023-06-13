@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link'
 import React, { useState } from 'react'
 import { Bars4Icon } from '@heroicons/react/24/solid'
 import {XMarkIcon} from '@heroicons/react/24/solid'
@@ -10,21 +11,21 @@ const handletoggle = ()=>{
 }  
 const NavbarMenu = ()=>{
   return (
-    <div className={ `  ${hidemenu ? ' flex flex-col items-center justify-evenly gap-10 ':'hidden'}  lg:flex` }>
+    <div className={ `  ${hidemenu ? ' flex flex-col items-center justify-evenly gap-10 z-9999 fixed ':'hidden'}  lg:flex` }>
     <li>
-            <a className='  lg:flex px-4 mx-4    ' href="#">Home</a>
+            <Link className='  lg:flex px-4 mx-4    ' href="/">Home</Link>
           </li>
           <li>
-            <a className='  lg:flex px-4 mx-4    ' href="#">Explore</a>
+            <Link className='  lg:flex px-4 mx-4    ' href="/explore">Explore</Link>
           </li>
           <li>  
-            <a className='  lg:flex px-4 mx-4    ' href="#">Log  In</a>
+            <Link className='  lg:flex px-4 mx-4    ' href="/login">Log  In</Link>
           </li>
           <li>
-            <a className='  md:flex px-4 mx-4    ' href="#">Sign Up</a>
+            <Link className='  md:flex px-4 mx-4    ' href="/signin">Sign Up</Link>
           </li>
           <li>
-            <a className='   md:flex px-4 mx-4    ' href="#">Logout</a>
+            <Link className='   md:flex px-4 mx-4    ' href="/logout">Logout</Link>
           </li>
           <li>
            
@@ -37,11 +38,11 @@ const NavbarMenu = ()=>{
 } 
   
   return (
-    <div className='sticky bg-gradient-to-r   from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  py-4 '>
+    <div className='sticky  gradientcolor py-4 '>
       <div className={`flex  md:text-black md:mx-4 md:p-4 md:flex md:text-xl  justify-between  lg:text-3xl ${hidemenu ? 'min-h-screen z-1  justify-evenly ':'flex'} `}>
         <h1 className=' lg:bg-gradient-to-r from-inherit to to-blue-400 lg:hover:from-pink-500 lg:hover:to-blue-500'>Travel Log</h1>
 
-        <ul className={ ` ${hidemenu ? 'flex place-items-center gap-10':'hidden'}  lg:flex `} >
+        <ul className={ ` ${hidemenu ? 'flex place-items-center gap-10':'hidden origin-top'}  lg:flex `} >
           <NavbarMenu />
         
         
