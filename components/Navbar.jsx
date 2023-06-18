@@ -19,13 +19,13 @@ const NavbarMenu = ()=>{
             <Link className='  lg:flex px-4 mx-4    ' href="/explore">Explore</Link>
           </li>
           <li>  
-            <Link className='  lg:flex px-4 mx-4    ' href="/login">Log  In</Link>
+            <Link className='  lg:flex px-4 mx-4    ' href="/#">Log  In</Link>
           </li>
           <li>
-            <Link className='  md:flex px-4 mx-4    ' href="/signin">Sign Up</Link>
+            <Link className='  md:flex px-4 mx-4    ' href="/#">Sign Up</Link>
           </li>
           <li>
-            <Link className='   md:flex px-4 mx-4    ' href="/logout">Logout</Link>
+            <Link className='   md:flex px-4 mx-4    ' href="/#">Logout</Link>
           </li>
           <li>
            
