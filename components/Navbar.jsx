@@ -40,7 +40,9 @@ const NavbarMenu = ()=>{
   return (
     <div className='sticky  gradientcolor py-4 '>
       <div className={`flex  md:text-black md:mx-4 md:p-4 md:flex md:text-xl  justify-between  lg:text-3xl ${hidemenu ? 'min-h-screen z-1  justify-evenly ':'flex'} `}>
-        <h1 className=' lg:bg-gradient-to-r from-inherit to to-blue-400 lg:hover:from-pink-500 lg:hover:to-blue-500'>Travel Log</h1>
+        <h1 className=' lg:bg-gradient-to-r from-inherit to to-blue-400 lg:hover:from-pink-500 lg:hover:to-blue-500'>
+          <Link href={'/'}>Travel Log</Link> 
+        </h1>
 
         <ul className={ ` ${hidemenu ? 'flex place-items-center gap-10':'hidden origin-top'}  lg:flex `} >
           <NavbarMenu />
