@@ -17,7 +17,8 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
-          <QueryClientProvider client={queryClient}>      <body className={inter.className}>
+          <QueryClientProvider client={queryClient}>   
+             <body className={inter.className}>
 
         <Navbar />
 

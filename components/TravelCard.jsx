@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { HandThumbUpIcon } from '@heroicons/react/24/solid'
 import { HandThumbDownIcon } from '@heroicons/react/24/solid'
